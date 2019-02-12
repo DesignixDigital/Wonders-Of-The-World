@@ -1,0 +1,690 @@
+<!-- Wonders of the World - designed and coded by Najim Uddin. Website: ThizizNU.com -->
+<!-- Images obtained from Unsplash.com and Pixabay.com - Source for free images and videos. Free for commercial use. No attribution required. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wonders of the World</title>
+
+	<!--Mobile first: Ensure proper rendering and touch zooming -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap links -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- JQuery -->
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.js"
+	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- Link to my custom CSS file -->
+	<link rel="stylesheet" type="text/css" href="wondersHome.css">
+	<!-- Hidden NavBar to appear while scrolling down -->
+	<script type="text/javascript" src="script.js"></script>
+
+	<!-- Links to Google hosted fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Righteous" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+
+	<meta charset="UTF-8">
+</head>
+
+
+<body>
+	<!-- Home button anchor link -->
+	<div id="home"></div>
+	<!-- NavBar -->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home"><img id="homeLogo" src="images/homeButton.png"></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="#pg">Pyramids Of Giza</a></li>
+					<li><a href="#tm">Taj Mahal</a></li>
+					<li><a href="#gc">Grand Canyon</a></li>
+					<li><a href="#sh">Stonehenge</a></li>
+					<li><a href="#cr">Colosseum in Rome</a></li>
+					<li><a href="#wc">Great Wall of China</a></li>
+					<li><a href="#br">Great Barrier Reef</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+	<!-- NavBar -->
+	<nav class="navbar navbar-default navbarHidden navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home"><img id="homeLogo" src="images/homeButton.png"></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+				<ul class="nav navbar-nav">
+					<li><a href="#pg">Pyramids Of Giza</a></li>
+					<li><a href="#tm">Taj Mahal</a></li>
+					<li><a href="#gc">Grand Canyon</a></li>
+					<li><a href="#sh">Stonehenge</a></li>
+					<li><a href="#cr">Colosseum in Rome</a></li>
+					<li><a href="#wc">Great Wall of China</a></li>
+					<li><a href="#br">Great Barrier Reef</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+
+
+
+
+
+	<!-- Banner -->
+	<div class="jumbotron">
+		<div class="container">	
+			<div class="bannerText">
+				<div class="Message">
+					<h1>Wonders of the World</h1>
+					<p>A collection showing the wonderful places around the world, this site catologues the worlds most spectacular natural wonders and manmade structures, both ancient and modern. Discover interesting information, facts and photographs of seven distinct areas: Great Pyramid of Giza, Taj Mahal, Grand Canyon, Stonehenge, Colosseum in Rome, The Great Wall of China and The Great Barrier Reef. 
+					</p>
+
+
+				</div>
+				<div id="scrollDown">
+					<a href="#pg"><p>Scroll</p>			
+						<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<div class="subHead">
+		<a class="pAnchors" name="pg"></a>	
+
+
+		<div class="pyramids">
+			<h2>Pyramids Of Giza</h2>
+		</div>	
+	</div>
+
+
+	<div class="container infoSection">
+		
+
+		<div class="row">
+			<div class="col-md-12">
+				<h3>About</h3>
+				<p>Located on the Giza Plateau near the city of Cairo (Egypt), the Pyramids of Giza are huge pyramids built by the Ancient Egyptians. Most likely built for Egyptian pharaohs, it took more than 20 years to build and was finished around 2500 BC. Scientists can't be sure how the pyramids were built, but there have been many theories that include the use of ramps and cranes to move the heavy blocks to construct the pyramid. The large complex includes the three pyramids - The Great Pyramid of Giza, Pyramid of Khafre and Pyramid of Menkaure. The Sphinx, a mysterious limestone monument with the body of a lion and a pharaoh's head, was also included during the construction of the second pyramid.</p>
+
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Facts</h3>
+				<ul>
+					<li>The Great Pyramid of Giza is the oldest and largest of the three pyramids in the Giza pyramid complex and towers some 481 feet (147 meters) above the plateau.</li><br/>
+					<li>The Great Pyramid is the only remaining monument of the Seven Wonders of the Ancient World.</li><br/>
+					<li>The three pyramids are precisely aligned with the Constellation of Orion.</li><br/>
+					<li>The pyramid was once covered by white casing made of polished limestone that formed a smooth outer surface.</li><br/>
+					<li>The sand was cleared away to expose the full body of the Sphinx in 1905, before that, the Sphinx was covered in sand.</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h3>Photographs</h3>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/jeremy-bishop-346050-unsplash.jpg"><img src="images/jeremy-bishop-346050-unsplash.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/martin-widenka-493231-unsplash.jpg"><img src="images/martin-widenka-493231-unsplash.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/egypt-1179193_1280.jpg"><img src="images/egypt-1179193_1280.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/desert-3217765_1280.jpg"><img src="images/desert-3217765_1280.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/egypt-481_1280.jpg"><img src="images/egypt-481_1280.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/sphinx-1175828_1280.jpg"><img src="images/sphinx-1175828_1280.jpg"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<!-- end container -->
+	</div>
+
+
+
+
+	<div class="subHead">
+		<a class="pAnchors" name="tm"></a>	
+
+
+		<div class="taj">
+			<h2>Taj Mahal</h2>
+		</div>	
+	</div>
+
+
+	<div class="container infoSection">
+		
+
+		<div class="row">
+			<div class="col-md-12">
+				<h3>About</h3>
+				<p>The Taj Mahal is an ivory-white marble mausoleum located on the south bank of the Yamuna river in the city of Agra (India). The tomb is the centrepiece of a large complex, which includes a mosque and a guest house, and set in formal gardens. It was commissioned in 1632 by the Mughal emperor to house the tomb of his favourite wife. The construction of the mausoleum was completed in 1643.</p>
+
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Facts</h3>
+				<ul>
+					<li>The Taj Mahal attracts 7–8 million visitors a year.</li><br/>
+					<li>The name Taj Mahal means “crown of palaces”.</li><br/>
+					<li>The full height of the Taj Mahal is 171 metres (561 feet).</li><br/>
+					<li>Construction of the Taj Mahal took around 20 years, beginning around 1632 and finishing around 1653.</li><br/>
+					<li>One of the Taj Mahal’s most recognizable features is a large white dome that is often called an ‘onion dome’ due to its shape.</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h3>Photographs</h3>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/taj-mahal-3132348_1280.jpg"><img src="images/taj-mahal-3132348_1280.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/india-1199487_1920.jpg"><img src="images/india-1199487_1920.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/taj-mahal-17130_1920.jpg"><img src="images/taj-mahal-17130_1920.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/taj-mahal-380044_1920.jpg"><img src="images/taj-mahal-380044_1920.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/taj-mahal-383069_1920.jpg"><img src="images/taj-mahal-383069_1920.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/taj-mahal-1629876_1920.jpg"><img src="images/taj-mahal-1629876_1920.jpg"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<!-- end container -->
+	</div>
+
+
+
+	<div class="subHead">
+		<a class="pAnchors" name="gc"></a>	
+
+
+		<div class="grand">
+			<h2>Grand Canyon</h2>
+		</div>	
+	</div>
+
+
+	<div class="container infoSection">
+		
+
+		<div class="row">
+			<div class="col-md-12">
+				<h3>About</h3>
+				<p>The Grand Canyon is located in Arizona (United States). It is a steep-sided canyon carved by the Colorado River basin over the past 70 million years. The Grand Canyon is known for its visually overwhelming size and its intricate and colorful landscape.  The canyon also has thick sequence of ancient rocks that are well preserved. These rock layers record much of the early geologic history of the North American continent.</p>
+
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Facts</h3>
+				<ul>
+					<li>The Grand Canyon is 277 miles (446 kilometres) in length.</li><br/>
+					<li>The Grand Canyon is around 6000 (1800 metres) feet deep.</li><br/>
+					<li>The Colorado River runs through the Grand Canyon, it has been eroding its steep sides for millions of years.</li><br/>
+					<li>The rock found at the bottom of the Grand Canyon is around 2 billion years old.</li><br/>
+					<li>American Indians have been living in and around the canyon for thousands of years.</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h3>Photographs</h3>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/colorado-river-3703083_960_720.jpg"><img src="images/colorado-river-3703083_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/grand-canyon-1165555_960_720.jpg"><img src="images/grand-canyon-1165555_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/grand-canyon-1245911_960_720.jpg"><img src="images/grand-canyon-1245911_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/grand-canyon-1744473_960_720.jpg"><img src="images/grand-canyon-1744473_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/grand-canyon-1956139_960_720.jpg"><img src="images/grand-canyon-1956139_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/usa-1183571_960_720.jpg"><img src="images/usa-1183571_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<!-- end container -->
+	</div>
+
+
+
+
+	<div class="subHead">
+		<a class="pAnchors" name="sh"></a>	
+
+
+		<div class="stone">
+			<h2>Stonehenge</h2>
+		</div>	
+	</div>
+
+
+	<div class="container infoSection">
+		
+
+		<div class="row">
+			<div class="col-md-12">
+				<h3>About</h3>
+				<p>Located in Wiltshire, (England), Stonehenge is a prehistoric monument which consists of a ring of standing stones, with each standing stone around 13 feet (4.0 m) high, seven feet (2.1 m) wide and weighing around 25 tons. It is believed that it was constructed from 3000 BC to 2000 BC. It remains unclear how Stonehenge was built and which purposes it was used for. Stonehenge is one of the most famous landmarks in the United Kingdom and regarded as a British cultural icon.</p>
+
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Facts</h3>
+				<ul>
+					<li>Two types of stone are used at Stonehenge: the larger sarsens, and the smaller bluestones.</li><br/>
+					<li>The circular earth bank and ditch that surrounds the stones can be dated back to about 3100 BC.</li><br/>
+					<li>There are 83 stones in total.</li><br/>
+					<li>It was created by a people who left no written records.</li><br/>
+					<li>Some of the stones were brought from nearly 200 miles away.</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h3>Photographs</h3>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/stone-henge-524744_960_720.jpg"><img src="images/stone-henge-524744_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/stonehenge-666614_960_720.jpg"><img src="images/stonehenge-666614_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/stonehenge-838695_960_720.jpg"><img src="images/stonehenge-838695_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/stone-henge-1055046_960_720.jpg"><img src="images/stone-henge-1055046_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/stone-henge-3704506_960_720.jpg"><img src="images/stone-henge-3704506_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/stone-henge-3801417_960_720.jpg"><img src="images/stone-henge-3801417_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<!-- end container -->
+	</div>
+
+
+
+
+	<div class="subHead">
+		<a class="pAnchors" name="cr"></a>	
+
+
+		<div class="colosseumR">
+			<h2>Colosseum in Rome</h2>
+		</div>	
+	</div>
+
+
+	<div class="container infoSection">
+		
+
+		<div class="row">
+			<div class="col-md-12">
+				<h3>About</h3>
+				<p>The Colosseum is an oval amphitheatre located in the centre of the city of Rome (Italy). It was constructed in 72 AD and was completed in 80 AD. It was used for gladiatorial contests and public events such as  animal hunts, re-enactments of famous battles, and dramas based on Classical mythology. The Colosseum is still an iconic symbol of Imperial Rome.</p>
+
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Facts</h3>
+				<ul>
+					<li>The Colosseum could hold, it is estimated, between 50,000 and 80,000 spectators.</li><br/>
+					<li>It is built of travertine, tuff, and brick-faced concrete and is the largest amphitheatre ever built.</li><br/>
+					<li>The Colosseum was built by Emperor Vespasian, founder of the Flavian dynasty, for Titus, his successor.</li><br/>
+					<li>Colosseum is an elliptical building measuring 189 meters long and 156 meters wide.</li><br/>
+					<li>Although two-thirds of the colosseum has been destroyed over time it is still a popular tourist site, attracting thousands of people every year.</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h3>Photographs</h3>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/colosseum-3012088_960_720.jpg"><img src="images/colosseum-3012088_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/roman-1044858_960_720.jpg"><img src="images/roman-1044858_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/rome-3887515_960_720.jpg"><img src="images/rome-3887515_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/rome-3882613_960_720.jpg"><img src="images/rome-3882613_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/rome-2093608_960_720.jpg"><img src="images/rome-2093608_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/rome-173469_960_720.jpg"><img src="images/rome-173469_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<!-- end container -->
+	</div>
+
+
+
+
+	<div class="subHead">
+		<a class="pAnchors" name="wc"></a>	
+
+
+		<div class="wall">
+			<h2>Great Wall of China</h2>
+		</div>	
+	</div>
+
+
+	<div class="container infoSection">
+		
+
+		<div class="row">
+			<div class="col-md-12">
+				<h3>About</h3>
+				<p>The Great Wall of China is built along an east-to-west line across the northern borders of China. The wall is made of stone, brick, tamped earth, wood, and other materials. It was built to protect the Chinese states and empires against the raids and invasions of various nomadic groups. Several walls were being built from as early as the 7th century BC and joined together and made bigger over time.</p>
+
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Facts</h3>
+				<ul>
+					<li>The Great Wall of China with all of its branches measures out to be roughly 21,196 km.</li><br/>
+					<li>The Great Wall is more than 2,300 years old.</li><br/>
+					<li>Great Wall of China is made up of a number of different sections. These sections were built by various dynasties over a long period of time from stone and other materials.</li><br/>
+					<li>The Great Wall of China is the longest structure ever built by humans.</li><br/>
+					<li>The highest point of the wall is around 8 metres (26 ft).</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h3>Photographs</h3>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/china-2097078_960_720.jpg"><img src="images/china-2097078_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/chinese-1028101_960_720.jpg"><img src="images/chinese-1028101_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/great-wall-of-china-317990_960_720.jpg"><img src="images/great-wall-of-china-317990_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/great-wall-of-china-814143_960_720.jpg"><img src="images/great-wall-of-china-814143_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/painting-220060_960_720.jpg"><img src="images/painting-220060_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/the-great-wall-2190047_960_720.jpg"><img src="images/the-great-wall-2190047_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<!-- end container -->
+	</div>
+
+
+
+	<div class="subHead">
+		<a class="pAnchors" name="br"></a>	
+
+
+		<div class="barrier">
+			<h2>Great Barrier Reef</h2>
+		</div>	
+	</div>
+
+
+	<div class="container infoSection">
+		
+
+		<div class="row">
+			<div class="col-md-12">
+				<h3>About</h3>
+				<p>Composed of over 2,900 individual reefs and 900 islands , the Great Barrier Reef is the world's largest coral reef system. It is located in the Coral Sea, off the coast of Queensland (Australia). The structure of the reef is composed of and built by billions of tiny organisms, known as coral polyps. The Great Barrier Reef also supports an extraordinary diversity of life, including humpback whales and dolphins.</p>
+
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-md-6">
+				<h3>Facts</h3>
+				<ul>
+					<li>More than 1,500 fish species live on the reef, including the clownfish, red bass, red-throat emperor, and several species of snapper and coral trout.</li><br/>
+					<li>The Great Barrier Reef can be seen from outer space and is the world's biggest single structure made by living organisms.</li><br/>
+					<li>The Great Barrier Reef is around 2600 kilometres (1616 miles) in length.</li><br/>
+					<li>10% of the worlds total fish species can be found just within the Great Barrier Reef.</li><br/>
+					<li>The Great Barrier Reef attracts over 2,000,000 visitors each year.</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<h3>Photographs</h3>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/great-barrier-reef-261720_960_720.jpg"><img src="images/great-barrier-reef-261720_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/barrier-696014_960_720.jpg"><img src="images/barrier-696014_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/coral-1332173_960_720.jpg"><img src="images/coral-1332173_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/sea-2705967_960_720.jpg"><img src="images/sea-2705967_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-6">
+						<div class="thumbnail">
+							<a href="images/sea-1066481_960_720.jpg"><img src="images/sea-1066481_960_720.jpg"></a>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-6">  				
+						<div class="thumbnail">
+							<a href="images/fish-382487_960_720.jpg"><img src="images/fish-382487_960_720.jpg"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<!-- end container -->
+	</div>
+
+<div class="footer">
+	
+	<p>Wonders of the World - designed and coded by Najim Uddin. Website: <a href="http://thiziznu.com/">ThizizNU.com</a></p>
+
+</div>
+
+
+
+
+</body>
+</html>

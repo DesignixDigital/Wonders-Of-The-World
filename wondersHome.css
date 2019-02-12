@@ -1,0 +1,446 @@
+/*<!-- Wonders of the World - designed and coded by Najim Uddin. Website: ThizizNU.com -->*/
+/*Images obtained from Unsplash.com and Pixabay.com - Source for free images and videos. Free for commercial use. No attribution required.*/
+
+.jumbotron{
+	background-image: url(images/wondersBanner2.jpg);
+	height: 100vh;
+	min-height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #ffffff;
+	margin-top: -20px;
+
+
+
+
+	/*Banner inner shadow*/
+	-webkit-box-shadow: inset 0px 0px 224px 6px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 224px 6px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 224px 6px rgba(0,0,0,1);
+	/*Banner text shadow*/
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	0px 8px 13px rgba(0,0,0,0.1),
+	0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+.jumbotron h1{
+	font-family: 'Lobster', cursive;
+	font-size: 7em;
+
+}
+
+.jumbotron p{
+	font-family: 'Righteous', cursive;
+
+}
+
+/*display:table set on parent div to verticle align child div - bannerText class*/
+.container{
+	height: 100%;
+	display: table;
+}
+
+/*display:table-cell to verticle align child div*/
+.bannerText{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.bannerText .Message{
+	background-color: rgba(0, 0, 0, 0.9);
+	padding: 3px 10px 10px 10px;
+	border: 10px solid #fff;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #5b2906;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #ffffff;
+	background-color: #5b2906;
+
+}
+
+.navbar-default .navbar-nav>li>a:active{
+	
+	background-color: #000000;
+
+}
+
+
+#homeLogo{
+	margin-top: -13px;
+	height: 45px;
+	width: auto;
+}
+
+#homeLogo:hover{
+	-webkit-filter: contrast(80%); /* Safari 6.0 - 9.0 */
+	filter: contrast(80%);
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #5b2906;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #5b2906;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #fff;
+}
+
+.navbarHidden{
+	background-color: pink;
+	text-align: center;
+	/*padding-bottom: 400px;*/
+}
+
+#scrollDown span{
+	font-size: 2em;
+}
+
+#scrollDown p{
+	font-size: 2.3em;
+	margin-top: 10px;
+	margin-bottom: -5px;
+}
+
+#scrollDown a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.subHead {
+	
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	
+	background-color: red;
+	margin-top: -30px;
+	padding-bottom: 0px;
+	margin-bottom: 80px;
+	background-color: #000000;
+}
+
+.subHead h2{
+	font-size: 8em;
+	color: #FFFFFF;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	position: relative;
+	bottom: -16px;
+
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	0px 8px 13px rgba(0,0,0,0.1),
+	0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+.pyramids{
+	background-image: url(images/giza.jpg);
+	/*background-position: 0% 85%;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 200px;
+}
+
+.taj{
+	background-image: url(images/taj-mahal-368_1920.jpg);
+	/*background-position: 0% 85%;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 200px;
+}
+
+.grand{
+	background-image: url(images/horseshoe-bend-768789_1920.jpg);
+	/*background-position: 0% 85%;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 200px;
+}
+
+.stone{
+	background-image: url(images/stone-henge-327849_960_720.jpg);
+	/*background-position: 0% 85%;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 200px;
+}
+
+.colosseumR{
+	background-image: url(images/the-colosseum-2182384_960_720.jpg);
+	/*background-position: 0% 85%;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 200px;
+}
+
+.wall{
+	background-image: url(images/great-wall-of-china-2030311_960_720.jpg);
+	/*background-position: 0% 85%;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 200px;
+}
+
+.barrier{
+	background-image: url(images/barrier-reef-1066497_960_720.jpg);
+	/*background-position: 0% 85%;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 200px;
+}
+
+
+
+.navbar-brand{
+	padding-right: 100px;
+}
+
+.row{
+	max-width: 900px;
+	margin: 0 auto;
+
+}
+
+.row p{
+	font-family: 'Lato', sans-serif;
+	text-align: justify;
+	font-size: 1.2em;
+
+}
+
+.row h3{
+	font-family: 'Righteous', cursive;
+
+}
+
+.row ul{
+	font-family: 'Lato', sans-serif;
+	text-align: justify;
+	padding: 0 0 0 16px;
+	font-size: 1.2em;
+
+
+}
+
+.infoSection{
+	margin-bottom: 80px;
+}
+
+/*.thumbnail{
+	margin-bottom: 5px;
+	background-color: #5b2906;
+    border: 1px solid #5b2906;
+    }*/
+
+
+
+.footer p {
+	text-align: center;
+	background-color: black;
+	color: #fff;
+	margin-bottom: 0px;
+	padding: 20px
+
+}
+
+
+/*	-------------
+	Media Queries
+	--------------*/
+
+
+
+	/*tablet*/
+/*@media only screen and (max-width: 2000px) {
+
+
+	}*/
+
+	@media (max-width: 1225px) {
+		.navbar-header {
+			float: none;
+		}
+		.navbar-left,.navbar-right {
+			float: none !important;
+		}
+		.navbar-toggle {
+			display: block;
+		}
+		.navbar-collapse {
+			border-top: 1px solid transparent;
+			box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+		}
+		.navbar-fixed-top {
+			top: 0;
+			border-width: 0 0 1px;
+		}
+		.navbar-collapse.collapse {
+			display: none!important;
+		}
+		.navbar-nav {
+			float: none!important;
+			margin-top: 7.5px;
+		}
+		.navbar-nav>li {
+			float: none;
+		}
+		.navbar-nav>li>a {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.collapse.in{
+			display:block !important;
+		}
+	}
+
+
+	@media only screen and (max-width: 1225px) {
+		#scrollDown {
+			display: none;
+			visibility: hidden;
+		}
+
+	}
+
+	@media only screen and (max-width: 1025px) {
+		.jumbotron h1{
+			font-family: 'Lobster', cursive;
+			font-size: 4em;
+		}
+
+		.jumbotron p{
+			font-size: 1.3em;
+
+		}
+
+		.subHead h2{
+			font-family: 'Lobster', cursive;
+			font-size: 6.5em;
+			bottom: -12px;	
+		}
+
+		.pyramids{
+			background-position: 50% 50%;
+
+		}
+
+		.taj{
+			background-position: 50% 50%;
+
+		}
+
+		.grand{
+			background-position: 50% 50%;
+
+		}
+		.stone{
+			background-position: 50% 50%;
+
+		}
+
+
+		.colosseumR{
+			background-position: 50% 50%;
+
+		}
+
+		.wall{
+			background-position: 50% 50%;
+
+		}
+
+		.barrier{
+			background-position: 50% 50%;
+
+		}
+
+		.row h3{
+			text-align: center;
+
+		}
+
+
+
+	}
+
+	.col-md-12 {
+		margin-top: -45px;
+	}
+
+
+
+	/*--------------------------------------------------------------------------------------*/
+
+	/*mobile*/
+	@media only screen and (max-width: 768px) {
+		.jumbotron h1{
+			font-family: 'Lobster', cursive;
+			font-size: 4em;
+		}
+
+		.jumbotron p{
+			font-size: 1.3em;
+
+		}
+
+		.subHead h2{
+			font-family: 'Lobster', cursive;
+			font-size: 4em;	
+			bottom: -8px;	
+		}
+
+		.pyramids{
+			background-position: 50% 50%;
+		}
+
+		.taj{
+			background-position: 50% 50%;
+
+		}
+
+		.grand{
+			background-position: 50% 50%;
+
+		}
+		.stone{
+			background-position: 50% 50%;
+
+		}
+
+		.colosseumR{
+			background-position: 50% 50%;
+
+		}
+
+		.wall{
+			background-position: 50% 50%;
+
+		}
+
+		.barrier{
+			background-position: 50% 50%;
+
+		}
+
+	}

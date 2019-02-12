@@ -1,6 +1,6 @@
 # Wonders Of The World
 
-A collection showing the wonderful places around the world, the website catologues the worlds most spectacular natural wonders and manmade structures, both ancient and modern.
+A collection showing the wonderful places around the world, this website catologues the worlds most spectacular natural wonders and manmade structures, both ancient and modern.
 
 Designed and coded by Najim Uddin. Website: ThizizNU.com.
 

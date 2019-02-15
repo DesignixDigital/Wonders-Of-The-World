@@ -6,5 +6,5 @@ A collection showing the wonderful places around the world, this website catolog
 
 Designed and coded by Najim Uddin. Website: ThizizNU.com.
 
-Images obtained from Unsplash.com and Pixabay.com - a source for free images and videos. Free for commercial use. No attribution required.
+Images obtained from Unsplash.com and Pixabay.com - a source for free images and videos - Free for commercial use. No attribution required.
 
